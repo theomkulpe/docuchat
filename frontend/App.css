@@ -1,0 +1,82 @@
+/* App.css */
+
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container for the entire app */
+.container {
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  max-width: 500px;
+  width: 100%;
+  margin: 20px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 24px;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* Styling for the input and button elements */
+input[type="file"],
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input[type="file"]:focus,
+input[type="text"]:focus {
+  border-color: #007BFF;
+}
+
+/* Button styling */
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Status and response message styling */
+p {
+  font-size: 14px;
+  color: #333;
+  background-color: #e9ecef;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+/* Error message styling */
+.error {
+  color: red;
+}

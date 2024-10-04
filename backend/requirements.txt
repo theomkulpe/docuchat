@@ -1,0 +1,7 @@
+Flask==2.0.3
+Flask-Cors==3.0.10
+langchain==0.0.193
+faiss-cpu==1.7.2
+groq==0.2.0
+huggingface-hub==0.13.0
+uuid==1.30
