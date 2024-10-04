@@ -56,7 +56,7 @@ def chat(vector_store, query):
     for res in results:
         context = context + res.page_content
     client = Groq(
-        api_key="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",
+        api_key="yourgroq_api_key",
     )
     LLM_prompt = context + "\n\nBased on the above context, generate a response to the following:\n" + query
     chat_completion = client.chat.completions.create(
