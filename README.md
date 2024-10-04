@@ -20,4 +20,3 @@ This project is a web-based application where users can upload PDF files or inpu
 - **FAISS**: Vector database for document search and retrieval.
 - **HuggingFace**: Pre-trained models for generating text embeddings.
 - **Groq**: Cloud-based LLM model for generating intelligent responses.
-- **Docker** (optional): For containerizing the application.
