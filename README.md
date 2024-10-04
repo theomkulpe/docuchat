@@ -1,5 +1,6 @@
 This project is a web-based application where users can upload PDF files or input a webpage URL. The app extracts the text, splits it into meaningful chunks, and allows users to query the content using AI models. The system leverages state-of-the-art embedding techniques, vector databases, and large language models to provide intelligent responses.
 
+![User Interface](https://github.com/theomkulpe/docuchat/blob/main/User%20Interface.png)
 ## Features
 
 - Upload PDF files or input webpage URLs for processing.
